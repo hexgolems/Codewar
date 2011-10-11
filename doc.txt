@@ -159,10 +159,6 @@ The server will have a scoreboard running on http://server:8080/scores.html you 
 `ruby bot_add.rb $yourbot $server $username $password`
 The server the tests the performance of your bot. The results will be shown on http://$server/scores.html.
 
-For the challenge version you have to use bot_add.rb $yourbot 10.11.200.3 $password.
-The password is obtained by completing either of the two challenge branches. Each challenge branch will give you two passwords.
-either send $pass1$pass2 or $pass2$pass1 as password for your bot.
-
 ===Setup===
 install Ruby (1.8 and 1.9 work) & ruby-dev
 install ruby gems
