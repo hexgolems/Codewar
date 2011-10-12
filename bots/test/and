@@ -1,0 +1,7 @@
+mov acc 3
+mov ptr 4
+and ptr acc
+cmp ptr 0
+jie 2
+die
+jmp 0

@@ -1,0 +1,20 @@
+$wait=100
+$bomb=100
+		mov *@dat $bomb
+:bot	clk $wait @spawn
+		sti 
+		jmp @run
+
+:spawn	cli
+		clk 0 0
+		splt @bot
+		rti
+
+:dat	die
+
+:run	inc ptr
+		mva *@dat
+		add *@dat $bomb*7
+		mvp *0 *acc-
+
+

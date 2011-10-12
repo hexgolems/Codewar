@@ -1,0 +1,5 @@
+mva 100
+cmp acc 100
+jie 2
+die
+jmp 0

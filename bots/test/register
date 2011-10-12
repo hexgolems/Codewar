@@ -1,0 +1,9 @@
+mov r1 23
+mov r2 42
+mov acc 1337
+mov ptr 357
+mov *200 r1
+mov *200 r2
+mov *200 acc
+mov *200 ptr
+jmp 0

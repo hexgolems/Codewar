@@ -1,0 +1,15 @@
+;author: mompff
+;name: bot3
+;begin: @begin
+:begin	mov acc @end-@mv
+:copy	mov ptr 250
+:mv		mvp *acc *-@end+128-
+		dca ptr- *-@end-128-
+		jne @mv  *-@end+192-
+		splt @mv+250-4 *-@end-192-
+		mov ptr -10 *-@end+64
+		mov acc 10 *-@end-64
+:loop	ica ptr- *acc-
+		ica ptr- *ptr-
+:end	jmp @loop *ptr-
+

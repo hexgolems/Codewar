@@ -1,0 +1,9 @@
+$stepsize=2**2
+
+        mov ptr @end
+:loop   add ptr $stepsize
+		ica *-98- *-97-
+        mvp 0 *-99-	;foo TODO
+        jmp @loop *-100-
+:end
+;sdfjlsdf:

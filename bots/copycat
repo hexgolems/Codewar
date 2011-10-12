@@ -1,0 +1,14 @@
+$dist=999
+$shot=7
+:begin sti
+clk 12*3 @loop
+mov ptr $dist+@begin-2
+mva @begin-1
+:copy mvp *acc 
+ica ptr+
+jmp @copy
+:loop cli
+splt $dist+@begin
+mva $shot
+ada $shot *acc-
+:end jmp -1 *acc-

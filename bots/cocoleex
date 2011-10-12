@@ -1,0 +1,6 @@
+sti
+mem 6 1
+	 sub *@dat 10
+:trap	mov **@dat *@dat-
+		jmp @trap *@dat-
+:dat	die

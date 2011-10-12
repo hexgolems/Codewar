@@ -1,0 +1,13 @@
+mov ptr 0
+inc ptr
+inc ptr
+inc ptr
+inc ptr
+inc ptr
+inc ptr
+inc ptr
+inc ptr
+cmp ptr 7
+jie 2
+die
+jmp 0

@@ -1,0 +1,11 @@
+mov ptr -1
+mov acc 0
+dec acc
+cmp ptr acc
+jie 2
+die
+not acc
+cmp acc 0
+jie 2
+die 
+jmp 0

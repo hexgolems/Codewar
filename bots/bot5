@@ -1,0 +1,6 @@
+sti
+cza -2 4
+mva 10
+dec acc
+jmp -1
+jmp 0

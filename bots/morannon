@@ -1,0 +1,8 @@
+sti
+mov acc 10
+clk 4 1
+ica *-300- *acc-
+ica *-301- *acc-
+ica *-302- *acc-
+ica *-303- *acc-
+

@@ -1,0 +1,6 @@
+sti
+mem 2 4
+mov *1 1
+die
+die
+jmp 0

@@ -1,0 +1,6 @@
+mov acc 4
+dca
+dca
+jmp acc
+die
+jmp 0

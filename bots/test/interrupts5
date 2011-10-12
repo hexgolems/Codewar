@@ -1,0 +1,6 @@
+sti
+cza 10 4
+mov acc 9
+ica
+die
+jmp 0

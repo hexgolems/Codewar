@@ -1,0 +1,8 @@
+$shot=7
+$copy=100
+
+:begin
+mva $shot
+ada $shot *acc-
+jmp -1 *acc-
+:end

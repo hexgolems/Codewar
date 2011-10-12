@@ -1,0 +1,29 @@
+;jmp dest unused - continue execution at dest
+;jie dest unused - jmp if equal
+;jia dest unused - jmp if above
+;jis dest unused - jmp if smaller
+;jne dest unused - jmp if not equal
+;jna dest unused - jmp if not above
+;jns dest unused - jmp if not smaller
+mov r1 1
+mov r2 1
+jmp 2
+die
+cmp r1 r1
+jie 2
+die
+mov r2 2
+cmp r2 r1
+jia 2
+die
+cmp r1 r2
+jis 2
+die
+jne 2
+die
+jna 2
+die
+cmp r2 r1
+jns 2
+die
+jmp 0

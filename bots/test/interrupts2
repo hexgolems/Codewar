@@ -1,0 +1,5 @@
+sti
+clk 10 3
+cli
+jmp 0
+die

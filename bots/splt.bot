@@ -1,0 +1,7 @@
+		splt @labelb
+
+:label	ica *-90-
+		jmp @label
+
+:labelb	ica *-80-
+		jmp @labelb

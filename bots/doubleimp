@@ -1,0 +1,24 @@
+	splt @bot2
+	splt @bot3
+	mov ptr 1
+	mvp *0 *1000-
+	die
+	die
+	die
+	die
+	die
+	die
+	die
+	die
+:bot2 mov ptr 1
+	mvp *0 *100-
+	die
+	die
+	die
+	die
+	die
+	die
+	die
+	die
+:bot3 mov ptr 1
+	mvp *0 *10-

@@ -1,0 +1,6 @@
+mov ptr 10
+neg ptr
+cmp ptr -10
+jie 2
+die
+jmp 0

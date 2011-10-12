@@ -1,0 +1,10 @@
+add r1 256
+mov *r1 *6
+mov *r1 *6
+mov *r1 *6
+sub r1 4
+splt r1
+jmp -6
+add acc 1
+mov *acc *0
+jmp -2

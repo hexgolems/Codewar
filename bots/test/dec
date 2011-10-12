@@ -1,0 +1,10 @@
+mov acc 10
+dec acc
+dec acc
+dec acc
+dec acc
+dec acc
+cmp acc 5
+jie 2
+die
+jmp 0

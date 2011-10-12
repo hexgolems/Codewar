@@ -1,0 +1,5 @@
+mov ptr 0
+add ptr 2
+jmp ptr
+die
+jmp 0

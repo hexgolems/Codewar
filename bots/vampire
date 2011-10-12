@@ -1,0 +1,27 @@
+$stepsize=9
+$offset=99
+		mov *@dat -20
+		sti
+		clk 1020 @clear
+		mov acc 128
+		mul acc acc
+		mul acc acc
+		mul acc 2*$stepsize
+		mov ptr $offset
+
+:loop	mvp *@bomb 
+		sub *@bomb acc
+		add ptr $stepsize
+		jmp @loop
+
+:bomb	splt @trap+2400*6-$offset+4 *1-
+:dat	die
+:trap	splt 0 *-100-
+		mov **@dat *@dat-
+		jmp @trap *-103-
+:clear	mov ptr 10
+		clk 3500 @kill
+		mvp 0 ptr+
+		jmp -1 *ptr+
+:kill   jmp 0 *@trap-
+

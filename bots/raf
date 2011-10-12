@@ -1,0 +1,8 @@
+sti
+mva 30
+mov ptr -30
+clk  4 1 
+ica *acc- ptr-
+ica *acc- *ptr-
+ica *acc- ptr-
+ica *acc- *ptr-

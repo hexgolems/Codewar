@@ -1,0 +1,6 @@
+		mov *@dat -10
+		jmp @trap
+:dat	die
+:trap	mov **@dat *@dat-
+		jmp @trap *@dat-
+

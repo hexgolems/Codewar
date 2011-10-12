@@ -1,0 +1,12 @@
+splt @foo
+add acc 351
+mov *acc *@s1
+;mov *acc *@s2
+jmp -3 *-100-
+
+:s1 splt 0
+:s2 jmp -1
+
+:foo
+mov ptr 1
+mvp *0 *10-

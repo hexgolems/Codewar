@@ -1,0 +1,7 @@
+mva 100
+xor acc acc
+mov *100 acc
+cmp *99 0
+jie 2
+die
+jmp 0
